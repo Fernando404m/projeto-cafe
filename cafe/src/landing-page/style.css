@@ -37,10 +37,10 @@
     border-bottom: 1px solid azure;
 }
 #bg-coffe {
-    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0), 85%, rgba(255, 255, 255, 1)), url(img/AlbedoBase_XL_Crafted_with_expert_precision_three_exquisitely_1.jpg);
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0), 85%, rgba(255, 255, 255, 1)), url(img/cafe.jpg);
 }
 #bg-inner {
-    background-image: url(img/AlbedoBase_XL_faa_o_interior_de_um_cafe_moderno_com_a_paleta_d_3.jpg);
+    background-image: url(img/interior.jpg);
 }
 #bg-tasting {
     background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), 85%, rgba(255, 255, 255, 1)), url(img/provando-cafe.png);
@@ -119,7 +119,7 @@
 /* about */
 
 .about-bg {
-    background-image: linear-gradient(0deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0), 85%, rgba(255, 255, 255, 1)), url(img/AlbedoBase_XL_faa_uma_arte_com_algumas_xicaras_de_cafe_espalha_1.jpg);
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0), 85%, rgba(255, 255, 255, 1)), url(img/xicaras_cafe.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -158,7 +158,7 @@
     list-style-position: inside;
 }
 .about-container #cafe-img {
-    background: transparent url(img/AlbedoBase_XL_faa_o_interior_de_um_cafe_moderno_com_a_paleta_d_3.jpg) no-repeat center;
+    background: transparent url(img/interior.jpg) no-repeat center;
     background-size: cover;
     height: 160px;
     border-bottom: 1px solid azure;
@@ -166,7 +166,7 @@
     margin: 10px 0;
 }
 .about-container #team-img {
-    background: transparent url(img/Leonardo_Kino_XL_faa_uma_equipe_de_um_cafe_incluindo_gerente_g_0.jpg) no-repeat center;
+    background: transparent url(img/equipe.jpg) no-repeat center;
     background-size: cover;
     height: 160px;
     border-bottom: 1px solid azure;
