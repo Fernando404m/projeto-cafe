@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&family=Lora:wght@400;700&family=Raleway:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-cafe: #4B3832;
+    --cor-cafe-leite: rgba(175, 115, 0, 0.4);
+    --cor-cta: #e8491d;
+}
+
+.header {
+    height: 60px;
+}
+.header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    font-size: 2.3em;
+    color: var(--cor-cafe);
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* hero */
+
+.hero {
+    position: relative;
+}
+.bg-hero {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 160px;
+    border-bottom: 1px solid azure;
+}
+#bg-coffe {
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0), 85%, rgba(255, 255, 255, 1)), url(img/AlbedoBase_XL_Crafted_with_expert_precision_three_exquisitely_1.jpg);
+}
+#bg-inner {
+    background-image: url(img/AlbedoBase_XL_faa_o_interior_de_um_cafe_moderno_com_a_paleta_d_3.jpg);
+}
+#bg-tasting {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), 85%, rgba(255, 255, 255, 1)), url(img/provando-cafe.png);
+}
+#coffe-desc {
+    width: 80%;
+    background-color: rgba(240, 255, 255, 0.4);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 14px;
+    backdrop-filter: blur(3px);
+    padding: 20px 0;
+}
+#coffe-desc h2 {
+    font-family: 'Lora', serif;
+    font-size: 28px;
+    text-align: center;
+    text-shadow: 1px 1px 1px var(--cor-cafe);
+}
+#coffe-desc p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px var(--cor-cafe);
+    margin: 15px;
+    padding: 5px;
+}
+
+/* menu */
+
+.menu > div {
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: var(--cor-cafe-leite);
+    box-shadow: 5px 5px 5px rgba(60, 40, 0, 0.3);
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.menu #text-container {
+    margin-top: 40px;
+}
+.menu #text-container h2 {
+    font-family: 'Lora', serif;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 1px var(--cor-cafe);
+}
+.menu #text-container p {
+    font-family: 'Raleway', serif;
+    font-weight: 600;
+    text-align: center;
+}
+.menu #btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+.menu button {
+    background-color: var(--cor-cta);
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: azure;
+    font-size: 18px;
+    border: 1px solid black;
+}
+.menu a {
+    text-decoration: none;
+    color: azure;
+}
+
+/* about */
+
+.about-bg {
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0), 85%, rgba(255, 255, 255, 1)), url(img/AlbedoBase_XL_faa_uma_arte_com_algumas_xicaras_de_cafe_espalha_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 160px;
+}
+.about-container {
+    width: 90%;
+    padding: 20px;
+    margin: 40px auto;
+    background-color: var(--cor-cafe-leite);
+    box-shadow: 5px 5px 5px rgba(60, 40, 0, 0.3);
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.about-container h2 {
+    font-family: 'Lora', serif;
+    font-size: 28px;
+    text-align: center;
+    text-shadow: 1px 1px 1px var(--cor-cafe);
+    margin-bottom: 10px;
+}
+.about-container h3 {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    text-align: left;
+    text-shadow: 1px 1px 1px var(--cor-cafe);
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.about-container p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+.about-container ul {
+    list-style-position: inside;
+}
+.about-container #cafe-img {
+    background: transparent url(img/AlbedoBase_XL_faa_o_interior_de_um_cafe_moderno_com_a_paleta_d_3.jpg) no-repeat center;
+    background-size: cover;
+    height: 160px;
+    border-bottom: 1px solid azure;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.about-container #team-img {
+    background: transparent url(img/Leonardo_Kino_XL_faa_uma_equipe_de_um_cafe_incluindo_gerente_g_0.jpg) no-repeat center;
+    background-size: cover;
+    height: 160px;
+    border-bottom: 1px solid azure;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+/* contact */
+
+#form {
+    width: 80%;
+    padding: 20px;
+    margin: 40px auto;
+    background-color: var(--cor-cafe-leite);
+    box-shadow: 5px 5px 5px rgba(60, 40, 0, 0.3);
+    border-radius: 15px;
+    border: 1px solid black;
+}
+#form h2 {
+    font-family: 'Lora', serif;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 1px var(--cor-cafe);
+}
+.input-label {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    border: black;
+    border-radius: 15px;
+}
+.input-label * {
+    margin: 3px auto 8px;
+    padding: 3px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 90%;
+}
+#submit-btn-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px;
+    margin-top: 5px;
+}
+#submit-btn {
+    padding: 5px;
+    border-radius: 15px;
+    display: block;
+    border: 1px solid black;
+}
+
+/* address */
+
+.address {
+    padding: 10px 10px 5px;
+    background-color: var(--cor-cafe);
+}
+.address > div {
+    display: flex;
+    margin: 5px 10px;
+    justify-content: space-between;
+}
+.address > div > * {
+    color: azure;
+    text-decoration: none;
+}
+.address span {
+    transform: translateY(-25%);
+    cursor: pointer;
+}
