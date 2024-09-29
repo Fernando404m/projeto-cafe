@@ -6,3 +6,12 @@ function copy(value) {
         console.error("Erro ao copiar o texto: ", err)
       })
 }
+
+function showMenu(show) {
+  let pdf = document.getElementById("pdf")
+  if (show) {
+    pdf.style.display = "block"
+  } else {
+    pdf.style.display = "none"
+  }
+}

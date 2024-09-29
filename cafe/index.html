@@ -27,8 +27,12 @@
         <p>O menu de nosso cafe esta disponivel abaixo</p>
       </div>
       <div id="btn-container">
-        <button onclick="showMenu()" class="menu-btn"><a href="./menu.html">Menu</a></button>
-        <button onclick="" class="pdf-btn">PDF</button>
+        <button class="menu-btn"><a href="./menu.html">Menu</a></button>
+        <button onclick="showMenu(true)" class="pdf-btn">PDF</button>
+      </div>
+      <div id="pdf">
+        <span onclick="showMenu(false)" class="material-symbols-outlined">close</span>
+        <embed src="src/landing-page/cardapio-cafe.pdf" type="application/pdf" width="100%" height="90%">
       </div>
     </section>
     <section id="about" class="about">

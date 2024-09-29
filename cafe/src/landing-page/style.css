@@ -110,11 +110,41 @@
     color: azure;
     font-size: 18px;
     border: 1px solid black;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px black;
+}
+.menu button:hover {
+    box-shadow: none;
 }
 .menu a {
     text-decoration: none;
     color: azure;
 }
+
+/* pdf */
+
+#pdf {
+    display: none;
+    margin: 0;
+    height: 95vh;
+    width: 90vw;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    background-color: gray;
+    align-content: end;
+}
+#pdf span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    color: azure;
+    cursor: pointer;
+}
+
 
 /* about */
 
@@ -220,6 +250,11 @@
     border-radius: 15px;
     display: block;
     border: 1px solid black;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px black;
+}
+#submit-btn:hover {
+    box-shadow: none;
 }
 
 /* address */
@@ -240,4 +275,7 @@
 .address span {
     transform: translateY(-25%);
     cursor: pointer;
+}
+.address span:hover {
+    color: rgb(0, 165, 165);
 }
