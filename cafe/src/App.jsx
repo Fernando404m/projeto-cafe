@@ -61,7 +61,7 @@ function App() {
         <button className="return"><a className="material-symbols-outlined" href="./../index.hmtl">arrow_back</a></button>
         <h1>cardapio</h1>
         <ul>
-          <li><a href="#coffee">Café</a></li>
+          <li><a href="#coffee">Cafés</a></li>
           <li><a href="#desserts">Sobremesas</a></li>
           <li><a href="#others">Outros</a></li>
         </ul>
