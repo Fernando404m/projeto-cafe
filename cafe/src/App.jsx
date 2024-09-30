@@ -58,7 +58,7 @@ function App() {
   return (
     <>
       <header className="header">
-        <button className="return"><a className="material-symbols-outlined" href="./index.hmtl">arrow_back</a></button>
+        <button className="return"><a className="material-symbols-outlined" href="./../index.hmtl">arrow_back</a></button>
         <h1>cardapio</h1>
         <ul>
           <li><a href="#coffee">Café</a></li>
