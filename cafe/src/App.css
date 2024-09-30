@@ -20,7 +20,7 @@
 .return {
     background-color: transparent;
     border: none;
-    padding: 5px 0 0 5px;
+    padding: 8px 0 0 8px;
     position: absolute;
     top: 0;
     left: 0;
@@ -28,6 +28,7 @@
 .return > a {
     color: azure;
     text-decoration: none;
+    font-size: 34px;
 }
 .header h1 {
     color: azure;
@@ -116,5 +117,7 @@
     left: 50% !important;
     transform: translate(-50%, -50%);
     position: fixed !important;
-    width: 90vw !important;
+    width: 92vw !important;
+    padding: 40px 20px;
+    background-color: rgb(70, 70, 70);
 }

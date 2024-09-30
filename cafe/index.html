@@ -27,12 +27,12 @@
         <p>O menu de nosso cafe esta disponivel abaixo</p>
       </div>
       <div id="btn-container">
-        <button class="menu-btn"><a href="./menu.html">Menu</a></button>
+        <button class="menu-btn"><a href="./src/menu.html">Menu</a></button>
         <button onclick="showMenu(true)" class="pdf-btn">PDF</button>
       </div>
       <div id="pdf">
         <span onclick="showMenu(false)" class="material-symbols-outlined">close</span>
-        <embed src="src/landing-page/cardapio-cafe.pdf" type="application/pdf" width="100%" height="90%">
+        <embed src="./cardapio-cafe.pdf" type="application/pdf" width="100%" height="90%">
       </div>
     </section>
     <section id="about" class="about">
@@ -83,6 +83,24 @@
       </address>
     </footer>
   </main>
-  <script src="./src/landing-page/script.js"></script>
+  <script>
+    function copy(value) {
+      var content = (value == "email") ? "fernando404m@gmail.com" : "55 19 971466370"
+      navigator.clipboard.writeText(content).then(function() {
+        alert("Texto copiado para a área de transferência!");
+      }).catch(function(err) {
+        console.error("Erro ao copiar o texto: ", err)
+      })
+    }
+
+    function showMenu(show) {
+      let pdf = document.getElementById("pdf")
+      if (show) {
+        pdf.style.display = "block"
+      } else {
+        pdf.style.display = "none"
+      }
+    }
+  </script>
 </body>
 </html>
