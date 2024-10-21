@@ -1,4 +1,5 @@
 
-*.cache
 /cafe/.firebase
-/cafe/.firebase
+/cafe/.firebaserc
+/cafe/firebase.js
+/cafe/firebase.json
